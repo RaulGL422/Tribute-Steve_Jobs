@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+body {
+    background: linear-gradient(
+        green, yellow, orange, red, violet, blue
+    );
+}
+
 header {
     width: 95%;
     max-width: 900px;
@@ -26,9 +32,26 @@ main {
     max-width: 700px;
     margin: 3% auto;
     padding: 3% 5%;
-    background-color: aliceblue;
+    background-color: #FFF;
+    border-radius: 15px;
 }
 
-main p {
+main h1 {
+    text-align: center;
+}
+
+main p, main h1 {
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.imgl {
+    width: 40%;
+    float: left;
+    margin: 15px;
+}
+
+.img {
+    width: 100%;
     margin: 10px;
 }
